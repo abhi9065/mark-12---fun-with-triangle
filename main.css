@@ -1,0 +1,138 @@
+body{
+    background-color: black ;
+    color:white ;
+}
+
+h1{
+     text-align: center;
+     
+}
+
+h3{
+    text-align: center;
+    border: 3px solid blue;
+    width: 35%;
+    margin: auto;
+    height: 4vh;
+    font-size: 1.1rem;
+    padding-top: 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+
+
+nav{
+    background-color: purple;
+    padding: 1.5rem;
+    margin-left: -1rem;
+    margin-right: -0.5rem;
+    margin-top: -1rem;
+}
+
+#format{
+    text-align: center;
+    padding: 1rem;
+
+    
+}
+
+.label{
+    display: block;
+    padding: 0.3rem;
+    margin-right: 32%;
+}
+
+.angle-input{
+     
+    width: 40%;
+    padding: rem;
+    height: 5vh;
+ 
+}
+
+#button-div{
+
+    text-align: center;
+    
+}
+
+#is-triangle-btn{
+
+    background-color: purple;
+    width: 40%;
+    height: 4vh;
+}
+
+
+.question-container1{
+
+    text-align:center ;
+    padding-top: 2rem;
+    border: 3px solid blue;
+    padding-bottom: 2rem;
+    width: 50%;
+    margin-left:25%;
+    display: block;
+    border-radius: 0.5rem;
+}
+.question-container2{
+
+    text-align:center ;
+    padding-top: 2rem;
+    border: 3px solid blue;
+    width: 50%;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left:25%;
+    border-radius: 0.5rem;
+}
+
+#submit-answer-btn{
+
+    width: 50%;
+    background-color: purple;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.side-input{
+     
+    width: 35%;
+    height: 4vh;
+}
+
+#hypotenuse-btn{
+    background-color: purple;
+    width: 35%;
+    height: 4vh;
+}
+
+.input-side{
+
+    width: 35%;
+    height: 5vh;
+}
+
+.label2{
+    display: block;
+    padding: 0.3rem;
+    margin-right: 30%;
+   
+    
+}
+
+.calculate-button{
+
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
