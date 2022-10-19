@@ -11,9 +11,15 @@ function calculateSumOfSquares(a, b) {
 
 function calculateHypotenuse() {
     const sumOfSquares = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
+    if(sumOfSquares){
 
-   const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-   outputE1.innerText = "the length of hypotenuse is " + lengthOfHypotenuse
+        var lengthOfHypotenuse = Math.sqrt(sumOfSquares);
+    outputE1.innerText= "The length of hypotenuse is " + lengthOfHypotenuse
+
+    }else{
+        outputE1.innerText= "Please Enter Both The Feilds "
+
+    }
 }
 
 

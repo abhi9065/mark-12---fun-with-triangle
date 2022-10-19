@@ -10,9 +10,18 @@ function calculateSumOfSides(base,height){
 
 function calculateButtonHandler() {
     var sumOfSides = calculateSumOfSides(Number(inputSide[0].value),Number(inputSide[1].value));
-    var areaOfTringle = (sumOfSides)/2;
+    
+    if(sumOfSides){
+        var areaOfTringle = (sumOfSides)/2;
  
-    outputBox.innerText= "The Area Of Tringle is in " + areaOfTringle + " cm2"
+        outputBox.innerText= "The Area Of Tringle is in " + areaOfTringle + " cm2"
+    }else{
+        outputBox.innerText= "Please Enter Both The Feilds"
+
+    }
+   
+   
+
    
 
 }
